@@ -16,7 +16,7 @@ profile:
 news: false #true  # includes a list of news items
 latest_posts: false #true  # includes a list of the newest posts
 selected_papers: false #true # includes a list of papers marked as "selected={true}"
-social: false #true  # includes social icons at the bottom of the page
+social: true  # includes social icons at the bottom of the page
 ---
 
 I studied my BSc. in Physics and Mathematics in Mexico. I fell in love with pure Mathematics, in particular with Topology. I discovered that all the shapes have an algorithmic beauty. I wrote my Bachelor's thesis about Michael Barnsley's SuperFractals.
