@@ -6,7 +6,7 @@ subtitle: Math & Illustration
 
 profile:
   align: right
-  image: prof_pic.png #prof_pic.jpg
+  image: vo_2.jpg #prof_pic.jpg
   image_circular: false #true # crops the image to make it circular
   more_info: >
     <p>☻ Hi, I'm Lore. </p>
@@ -21,9 +21,9 @@ social: true  # includes social icons at the bottom of the page
 
 I studied my BSc. in Physics and Mathematics in Mexico. I fell in love with pure Mathematics, in particular with Topology. I discovered that all the shapes have an algorithmic beauty. I wrote my Bachelor's thesis about Michael Barnsley's SuperFractals.
 
-After my BSc. I worked as a Category Development Specialist at Walmart, and as a Credit Risk Analyst in HSBC, until it was time to move to Germany to study my MSc. in Mathematics at the Technical University of Munich.
+After my BSc. I worked in Mexico for 2 years. First, as a Category Development Specialist at Walmart, and then as a Credit Risk Analyst in HSBC, until I move to Germany to study my MSc. in Mathematics at the Technical University of Munich.
 
-During my studies I focused on Machine Learning (ML), and I had the opportunity to train ML models for Capital Bay, and BMW. I wrote my Master's thesis in Computational Biology about gene regulatory networks.
+During my studies I focused on Machine Learning (ML), and had the opportunity to collaborate in AI projects with Capital Bay, and BMW. I wrote my Master's thesis in Computational Biology about the inference of gene regulatory networks with temporal convolutional neural networks.
 
 Now, I work as a Data Scientist / AI Engineer at IBM, and in my free time I keep nurturing my passion for shapes drawing about anything, but mostly about my beautiful dog, Simona :)
 
