@@ -1,11 +1,11 @@
 ---
 layout: page
-title: project 3
-description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://unsplash.com
-importance:
-category:
+title: GenAI in Banking
+description: whitepaper for IBM
+img: assets/img/gen_ai_whitepaper.png
+redirect: https://ibm.box.com/v/whitepaper-genai-banking-en
+importance: 3
+category: machine learning
 ---
 
 Every project has a beautiful feature showcase page.
