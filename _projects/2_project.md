@@ -4,77 +4,51 @@ title: classification of gemstones
 description: cnn with explainability for fun
 img: assets/img/gemstones.png
 importance: 2
-category: code
+category: machine learning
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+### <a href="https://github.com/loremendez/Gemstones">CODE</a>
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+For this project, I wanted to classify gemstones using deep convolutional neural networks and then use an explainability method to be able to identify which features influence the prediction the most.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+I used the <a href="https://www.kaggle.com/lsind18/gemstones-images">gemstones dataset</a> from Daria Chemkaeva. It includes 2856 images belonging to 87 classes.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/gemstones_dataset.png" title="gemstones dataset" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
+
+Since the shape of the gemstone is not really important, but the color and the patterns of the gem, I performed a data augmentation step.
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/gemstones_augmented_data.png" title="gemstones data augmentation" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+Then I built a convolutional neural network with residual blocks and batch normalization. I trained the model for 137 epochs, due to the early stopping. The accuracy on the training set was around 80% and the accuracy on the validation around 70%.
+
+And of course, when implementing the <a href="https://arxiv.org/abs/1810.03307">VarGrad (VG)</a> explainability method, we can see nothing in the score maps. This is only confirming what we already know, that the categorisation of gemstones is done through the color. And therefore, the performance may also not be so high, because we have gemstones with very similar colors and patterns.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/gemstones_scoremaps.png" title="gemstones scoremaps" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+However, if we use a different dataset, we may obtain better results. For example, for the classification of buildings according to their architectural style or more complex things, such as <a href="https://github.com/andresbecker/master_thesis/tree/main">predicting the transcription rates from multiplexed protein maps</a> .
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/architecture_score_map.png" title="architecture score map" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/architecture_foto.png" title="architecture image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    Score map and original photo when classificating of buildings according to their architectural style, using the <a href="https://arxiv.org/abs/1810.03307">Architectural styles dataset</a>.
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
-
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
+Thanks to Andres Becker for helping me to build this project!

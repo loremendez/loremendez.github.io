@@ -4,7 +4,7 @@ title: The Gene Thicket
 description: Master's Thesis
 img: assets/img/gene_thicket.png
 importance: 1
-category: code
+category: machine learning
 related_publications:
 ---
 
