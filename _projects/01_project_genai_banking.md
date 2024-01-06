@@ -1,10 +1,11 @@
 ---
 layout: page
-title: project 4
-description: another without an image
-img:
-importance: 3
-category: creative
+title: GenAI in Banking
+description: IBM whitepaper
+img: assets/img/gen_ai_whitepaper.png
+redirect: https://ibm.box.com/v/whitepaper-genai-banking-en
+importance: 1
+category: machine learning
 ---
 
 Every project has a beautiful feature showcase page.

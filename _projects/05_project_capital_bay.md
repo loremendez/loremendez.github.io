@@ -1,11 +1,11 @@
 ---
 layout: page
-title: GenAI in Banking
-description: whitepaper for IBM
-img: assets/img/gen_ai_whitepaper.png
-redirect: https://ibm.box.com/v/whitepaper-genai-banking-en
-importance: 3
+title: real estate valuation
+description: TUM and Capital Bay
+img:
+importance: 5
 category: machine learning
+redirect: https://www.mdsi.tum.de/fileadmin/w00cet/di-lab/pdf/Capital_Bay_-_Final_Documentation_WS2019.pdf
 ---
 
 Every project has a beautiful feature showcase page.

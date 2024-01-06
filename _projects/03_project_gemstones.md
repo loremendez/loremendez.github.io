@@ -3,7 +3,7 @@ layout: page
 title: classification of gemstones
 description: cnn with explainability for fun
 img: assets/img/gemstones.png
-importance: 2
+importance: 3
 category: machine learning
 ---
 

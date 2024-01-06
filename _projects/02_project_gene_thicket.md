@@ -1,9 +1,9 @@
 ---
 layout: page
 title: The Gene Thicket
-description: Master's Thesis
+description: TUM Master's Thesis
 img: assets/img/gene_thicket.png
-importance: 1
+importance: 2
 category: machine learning
 related_publications:
 ---
