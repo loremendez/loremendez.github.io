@@ -2,7 +2,7 @@
 layout: page
 title: The Gene Thicket
 description: TUM Master's Thesis
-img: assets/img/gene_thicket.png
+img: assets/img/gene_thicket/gene_thicket.png
 importance: 2
 category: machine learning
 related_publications:
@@ -19,7 +19,7 @@ Gene Regulatory Networks are graphs that describe the regulatory process of a sy
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/grn_overview.png" title="grn overview" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/gene_thicket/grn_overview.png" title="grn overview" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -31,7 +31,7 @@ The gene thicket is a GRN inference method that predicts the future of each cell
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/gene_thicket_architecture.png" title="gene thicket" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/gene_thicket/gene_thicket_architecture.png" title="gene thicket" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -43,13 +43,13 @@ The idea of using deep learning comes from the fact that neural networks are uni
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/gene_thicket_interpretability.png" title="interpretability" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/gene_thicket/gene_thicket_interpretability.png" title="interpretability" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/gene_thicket_causal_validation.png" title="causal" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/gene_thicket/gene_thicket_causal_validation.png" title="causal" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/gene_thicket_signs.png" title="signs" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/gene_thicket/gene_thicket_signs.png" title="signs" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -62,10 +62,10 @@ To evaluate the quality of any reconstructed gene regulatory network is extremel
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/results_synthetic_linear.png" title="results linear" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/gene_thicket/results_synthetic_linear.png" title="results linear" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/results_curated_bifurcated.png" title="results bifurcation" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/gene_thicket/results_curated_bifurcated.png" title="results bifurcation" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -74,10 +74,10 @@ To evaluate the quality of any reconstructed gene regulatory network is extremel
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/results_pancreas_good.png" title="results pancreas 1" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/gene_thicket/results_pancreas_good.png" title="results pancreas 1" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/results_pancreas_not_so_good.png" title="results pancreas 2" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/gene_thicket/results_pancreas_not_so_good.png" title="results pancreas 2" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">

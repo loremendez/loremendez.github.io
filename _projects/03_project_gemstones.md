@@ -2,7 +2,7 @@
 layout: page
 title: classification of gemstones
 description: cnn with explainability for fun
-img: assets/img/gemstones.png
+img: assets/img/gemstones/gemstones.png
 importance: 3
 category: machine learning
 ---
@@ -15,7 +15,7 @@ I used the <a href="https://www.kaggle.com/lsind18/gemstones-images">gemstones d
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/gemstones_dataset.png" title="gemstones dataset" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/gemstones/gemstones_dataset.png" title="gemstones dataset" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -23,7 +23,7 @@ Since the shape of the gemstone is not really important, but the color and the p
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/gemstones_augmented_data.png" title="gemstones data augmentation" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/gemstones/gemstones_augmented_data.png" title="gemstones data augmentation" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -33,7 +33,7 @@ And of course, when implementing the <a href="https://arxiv.org/abs/1810.03307">
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/gemstones_scoremaps.png" title="gemstones scoremaps" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/gemstones/gemstones_scoremaps.png" title="gemstones scoremaps" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -41,10 +41,10 @@ However, if we use a different dataset, we may obtain better results. For exampl
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/architecture_score_map.png" title="architecture score map" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/gemstones/architecture_score_map.png" title="architecture score map" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/architecture_foto.png" title="architecture image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/gemstones/architecture_foto.png" title="architecture image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
