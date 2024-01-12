@@ -2,7 +2,7 @@
 layout: page
 title: real estate valuation
 description: TUM and Capital Bay
-img:
+img: assets/img/capital_bay.png
 importance: 5
 category: machine learning
 redirect: https://www.mdsi.tum.de/fileadmin/w00cet/di-lab/pdf/Capital_Bay_-_Final_Documentation_WS2019.pdf
