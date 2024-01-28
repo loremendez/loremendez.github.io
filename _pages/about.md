@@ -23,9 +23,9 @@ I studied my BSc. in Physics and Mathematics in Mexico. I fell in love with pure
 
 After my BSc. I worked in Mexico for 2 years. First, as a Category Development Specialist at Walmart, and then as a Credit Risk Analyst in HSBC, until I move to Germany to study my MSc. in Mathematics at the Technical University of Munich.
 
-During my studies I focused on Machine Learning (ML), and had the opportunity to collaborate in AI projects with Capital Bay, and BMW. I wrote my Master's thesis in Computational Biology about the inference of gene regulatory networks with temporal convolutional neural networks.
+During my studies I focused on Machine Learning (ML), and had the opportunity to collaborate in AI projects with Capital Bay, and BMW. I wrote my Master's thesis in Computational Biology about the inference of gene regulatory networks with temporal convolutional neural networks at the Helmholtz Zentrum.
 
-Now, I work as a Data Scientist / AI Engineer at IBM, and in my free time I keep nurturing my passion for shapes drawing about anything, but mostly about my beautiful dog, Simona :)
+Now, I work as an AI Engineer at IBM, and in my free time I keep nurturing my passion for shapes drawing about anything, but mostly about my beautiful dog, Simona :)
 
 <!--
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.

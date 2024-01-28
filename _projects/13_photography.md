@@ -7,4 +7,78 @@ importance: 7
 category: creative
 ---
 
-In progress...
+I started taking pictures back in 2015. My style is very geometric and sometimes minimalist :)
+
+**Type of Photo:** my main focus is street photography, but I do sometimes portraits, architecture and landscapes.
+
+**Equipment:** I started with a Fuji x100 with a 35mm lens that I borrowed from my mom, then my dad gave my a Nikon D500 for which I had some lenses in the range of 18mm to 55mm. The Fuji was great for street photography, while the Nikon was awesome for landscapes. Now, I take photos with my phone, which is practical, but not the best for street photography if you want to be discrete, and I have not been active in photography since I moved to Europe.
+
+**Influences:** Henri Cartier Bresson, Vivian Maier, Chema Madoz, <a href="https://www.thomasleuthard.com/">Thomas Leuthard</a>, <a href="http://marielaigneau.com/">Marie Laigneau</a>, <a href="http://www.franciscomata.com.mx/">Francisco Mata Rosas</a>.
+
+
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/photography/IMG_3720.jpg" title="el caballito" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/photography/IMG_4002.JPG" title="el angel" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/photography/IMG_3447.JPG" title="el chopo" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/photography/IMG_5296.JPG" title="caminante de colombia" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/photography/IMG_4078.JPG" title="con flores" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/photography/IMG_4087.JPG" title="iglesia" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/photography/IMG_4294.JPG" title="cuerna" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/photography/IMG_3347.JPG" title="playa" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/photography/IMG_6058.jpg" title="sotano" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/photography/IMG_6059.JPG" title="sotano2" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/photography/IMG_6055.jpg" title="sotano2" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/photography/IMG_3763.JPG" title="transformers" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/photography/Snapseed(2).jpg" title="chica paris" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/photography/Snapseed.jpg" title="pareja paris" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/photography/Snapseed(1).jpg" title="autoretrato paris" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
